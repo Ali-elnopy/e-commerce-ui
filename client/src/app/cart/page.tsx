@@ -151,7 +151,7 @@ const CartPage = () => {
               </div>
             ))
           ) : activeStep === 2 ? (
-            <ShoppingForm />
+            <ShoppingForm setShoppingForm={setShoppingForm} />
           ) : activeStep === 3 && shoppingForm ? (
             <ShoppingPaymentForm />
           ) : (
