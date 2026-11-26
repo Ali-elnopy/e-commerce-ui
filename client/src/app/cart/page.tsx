@@ -1,7 +1,7 @@
 "use client";
 
-import ShoppingForm from "@/components/ShoppingForm";
-import ShoppingPaymentForm from "@/components/ShoppingPaymentForm";
+import ShoppingForm from "@/components/ShippingForm";
+import ShoppingPaymentForm from "@/components/ShippingPaymentForm";
 import { CartItemsType } from "@/types";
 import { ArrowBigRight, Trash2 } from "lucide-react";
 import Image from "next/image";

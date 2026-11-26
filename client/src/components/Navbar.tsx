@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
 import Home, { Bell, CarIcon, HomeIcon, ShoppingCart } from "lucide-react";
-import ShoppingCartIcon from "./ShoppingCartIcon";
+import ShoppingCartIcon from "./ShippingCartIcon";
 const Navbar = () => {
   return (
     <nav className="w-full flex items-center justify-between border-b border-gray-200 p-4">
